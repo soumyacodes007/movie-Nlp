@@ -1,3 +1,67 @@
+# CineMatch - Movie Recommendation System
+
+A modern, feature-rich movie recommendation system built with Streamlit that suggests similar movies based on content-based filtering.
+
+## Features
+
+- **Content-based movie recommendations** using cosine similarity
+- **Dark and light theme** options
+- **Genre-based browsing** of movies
+- **Movie analytics** with interactive visualizations
+- **Search history** tracking
+- **Responsive UI** with modern design elements
+
+## Local Setup
+
+1. Clone this repository
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```
+   streamlit run movie_recommender.py
+   ```
+
+## Streamlit Cloud Deployment
+
+This app can be easily deployed on Streamlit Cloud:
+
+1. Fork this repository to your GitHub account
+2. Sign up for [Streamlit Cloud](https://streamlit.io/cloud)
+3. Create a new app in Streamlit Cloud
+4. Connect to your GitHub repository
+5. Set the main file path to `movie_recommender.py`
+6. Deploy!
+
+## How It Works
+
+CineMatch uses content-based filtering to recommend movies based on:
+- Movie genres
+- Director
+- Main actors
+
+The system calculates similarity between movies using cosine similarity on these features.
+
+## Dataset
+
+The app uses movie data from the included datasets:
+- `datasets/final_data.csv` - Main dataset with combined features
+- `datasets/movie_metadata.csv` - Extended movie metadata
+
+## Screenshots
+
+![CineMatch Dark Mode](https://via.placeholder.com/800x450.png?text=CineMatch+Dark+Mode)
+![CineMatch Recommendations](https://via.placeholder.com/800x450.png?text=CineMatch+Recommendations)
+
+## Future Improvements
+
+- Integration with a real movie API (like TMDB) for movie posters
+- User authentication for personalized recommendations
+- Collaborative filtering alongside content-based filtering
+- Sentiment analysis of movie reviews
+- Watchlist feature
+
 # Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
