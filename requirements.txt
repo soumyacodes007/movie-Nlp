@@ -18,3 +18,4 @@ pickleshare==0.7.5
 streamlit==1.24.0
 plotly==5.14.1
 pillow==9.5.0
+
